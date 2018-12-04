@@ -4,6 +4,9 @@ public class Homework7 {
 	 * from 1 to x and return the result
 	 */
 	public static int problem1(int x) {
+		/* You need to keep track of the sum as
+		 * well as the number we are adding
+		 */
 		int n = 0;
 		while (n != x){
 			n += x;
@@ -64,9 +67,12 @@ public class Homework7 {
 	 */
 	 public static int problem5(int a, int b) {
 		 int k = 0;
-		 while (a >= b){
-			 k = a/b;
-		 }
+		 /* Infinite loop! You must change either a
+		  * or b in the loop
+		  */
+// 		 while (a >= b){
+// 			 k = a/b;
+// 		 }
 return k;
 	 }
 
